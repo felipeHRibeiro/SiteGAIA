@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bioinvest - Semeando o futuro dos seus investimentos</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #f8faf9;
+            --primary-color: #1a4a2e;
+            --accent-color: #a4de02;
+            --text-dark: #1a1a1a;
+            --text-light: #ffffff;
+            --card-bg: #ffffff;
+            --border-gray: #f0f0f0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+
+        /* --- LAYOUT SUPERIOR ORIGINAL (RESTAURADO) --- */
+        .top-bar {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 5px 50px;
+            text-align: right;
+            font-size: 0.8rem;
+        }
+
+        nav.main-nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 50px;
+            background: white;
+        }
+
+        .logo {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: var(--primary-color);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .logo-leaf { color: var(--accent-color); }
+
+        .nav-links {
+            display: flex;
+            gap: 30px;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: var(--text-dark);
+            font-weight: 600;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 0.9rem;
+        }
+
+        header {
+            background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?q=80&w=1600');
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+            position: relative;
+        }
+
+        header h1 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 4.5rem;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            border-top: 2px solid var(--accent-color);
+            padding-top: 10px;
+            display: inline-block;
+        }
+
+        /* --- FILTRO (RESTAURADO) --- */
+        .filter-container {
+            max-width: 800px;
+            margin: -50px auto 40px;
+            position: relative;
+            z-index: 10;
+        }
+
+        .filter-section {
+            background: white;
+            padding: 25px 40px;
+            border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            border-bottom: 5px solid var(--accent-color);
+        }
+
+        .filter-section label {
+            display: block;
+            font-weight: 700;
+            margin-bottom: 10px;
+            color: var(--text-dark);
+            font-size: 0.9rem;
+        }
+
+        select {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 1rem;
+            color: #555;
+            background-color: #fff;
+        }
+
+        /* --- CARDS COM ACORDEÃO --- */
+        .container { max-width: 1100px; margin: 0 auto 50px; padding: 0 25px; }
+
+        .card {
+            background: var(--card-bg);
+            border-radius: 12px;
+            margin-bottom: 25px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            border-left: 10px solid var(--primary-color);
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+
+        .card-header { padding: 30px; }
+
+        .card-header h3 {
+            margin: 0;
+            color: var(--primary-color);
+            font-size: 1.8rem;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .card-header .short-desc {
+            margin: 10px 0 20px;
+            color: #666;
+            font-size: 1.1rem;
+        }
+
+        .actions { display: flex; gap: 12px; }
+
+        .btn-visit {
+            background: var(--primary-color);
+            color: white;
+            padding: 12px 24px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 0.9rem;
+        }
+
+        .btn-desc {
+            background: #f1f3f2;
+            color: var(--primary-color);
+            padding: 12px 24px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 0.9rem;
+            border: none;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        /* Conteúdo Expansível */
+        .card-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.4s ease-out;
+            background-color: #fafcfb;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px 40px;
+            padding: 0 30px;
+        }
+
+        .card.active .card-content {
+            max-height: 1200px;
+            padding: 25px 30px;
+            border-top: 1px solid var(--border-gray);
+        }
+
+        .info-item { font-size: 0.95rem; line-height: 1.4; }
+        .info-item strong { display: block; color: var(--text-dark); margin-bottom: 2px; }
+        .info-item span { color: #555; }
+
+        .hidden { display: none; }
+
+        /* --- DROPDOWN DE PLANILHAS --- */
+        .nav-dropdown {
+            position: relative;
+        }
+
+        .nav-dropdown-btn {
+            background: var(--primary-color);
+            color: white;
+            padding: 10px 18px;
+            border-radius: 6px;
+            border: none;
+            font-weight: 700;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 0.85rem;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 7px;
+            transition: background 0.2s ease;
+            letter-spacing: 0.02em;
+        }
+
+        .nav-dropdown-btn:hover {
+            background: #0f2e1b;
+        }
+
+        .nav-dropdown-btn .arrow {
+            font-size: 0.7rem;
+            transition: transform 0.25s ease;
+            display: inline-block;
+        }
+
+        .nav-dropdown.open .nav-dropdown-btn .arrow {
+            transform: rotate(180deg);
+        }
+
+        .dropdown-menu {
+            display: none;
+            position: absolute;
+            top: calc(100% + 10px);
+            right: 0;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 12px 40px rgba(0,0,0,0.13);
+            min-width: 320px;
+            z-index: 100;
+            border: 1px solid #e8ede9;
+            overflow: hidden;
+            animation: fadeSlideDown 0.2s ease;
+        }
+
+        @keyframes fadeSlideDown {
+            from { opacity: 0; transform: translateY(-8px); }
+            to   { opacity: 1; transform: translateY(0); }
+        }
+
+        .nav-dropdown.open .dropdown-menu {
+            display: block;
+        }
+
+        .dropdown-header {
+            background: var(--primary-color);
+            color: white;
+            padding: 12px 18px;
+            font-size: 0.75rem;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+        }
+
+        .dropdown-item {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 13px 18px;
+            text-decoration: none;
+            color: var(--text-dark);
+            font-size: 0.88rem;
+            font-weight: 600;
+            transition: background 0.15s ease, color 0.15s ease;
+            border-bottom: 1px solid #f2f5f3;
+        }
+
+        .dropdown-item:last-child {
+            border-bottom: none;
+        }
+
+        .dropdown-item:hover {
+            background: #f0f7f2;
+            color: var(--primary-color);
+        }
+
+        .dropdown-item .item-icon {
+            width: 32px;
+            height: 32px;
+            background: #e8f5ec;
+            border-radius: 7px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1rem;
+            flex-shrink: 0;
+        }
+
+        .dropdown-item .item-text {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .dropdown-item .item-title {
+            font-weight: 700;
+            color: var(--primary-color);
+            font-family: 'Montserrat', sans-serif;
+            font-size: 0.82rem;
+        }
+
+        .dropdown-item .item-sub {
+            font-size: 0.75rem;
+            color: #888;
+            font-weight: 400;
+            margin-top: 1px;
+        }
+
+        @media (max-width: 768px) {
+            .card-content { grid-template-columns: 1fr; }
+            header h1 { font-size: 2.5rem; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="top-bar">🌐 Português</div>
+
+<nav class="main-nav">
+    <div class="logo"><span class="logo-leaf">🍃</span> BioInvest</div>
+    <div class="nav-links">
+        <a href="#">Página Inicial</a>
+        <a href="#">Fundos</a>
+        <a href="#">Sobre</a>
+
+        <div class="nav-dropdown" id="planilhasDropdown">
+            <button class="nav-dropdown-btn" onclick="toggleDropdown()">
+                📊 Planilhas <span class="arrow">▼</span>
+            </button>
+            <div class="dropdown-menu">
+                <div class="dropdown-header">Mapeamento de Oportunidades</div>
+                <a class="dropdown-item" href="/planilha/grupo3" target="_blank">
+                    <div class="item-icon">🤝</div>
+                    <div class="item-text">
+                        <span class="item-title">Grupo 3 — Agências Bilaterais</span>
+                        <span class="item-sub">Cooperação e Fomento Internacional</span>
+                    </div>
+                </a>
+                <a class="dropdown-item" href="/planilha/grupo4" target="_blank">
+                    <div class="item-icon">🏦</div>
+                    <div class="item-text">
+                        <span class="item-title">Grupo 4 — Bancos de Fomento</span>
+                        <span class="item-sub">Nacionais e Regionais</span>
+                    </div>
+                </a>
+                <a class="dropdown-item" href="/planilha/grupo5" target="_blank">
+                    <div class="item-icon">💡</div>
+                    <div class="item-text">
+                        <span class="item-title">Grupo 5 — Fundos Privados de Impacto</span>
+                        <span class="item-sub">Investimento de impacto e ESG</span>
+                    </div>
+                </a>
+                <a class="dropdown-item" href="/planilha/grupo6" target="_blank">
+                    <div class="item-icon">📋</div>
+                    <div class="item-text">
+                        <span class="item-title">Grupo 6 — Incentivos Fiscais</span>
+                        <span class="item-sub">Políticas Públicas de Fomento</span>
+                    </div>
+                </a>
+                <a class="dropdown-item" href="/planilha/grupo7" target="_blank">
+                    <div class="item-icon">🌍</div>
+                    <div class="item-text">
+                        <span class="item-title">Grupo 7 — Fundos Climáticos Internacionais</span>
+                        <span class="item-sub">Mecanismos de financiamento climático</span>
+                    </div>
+                </a>
+                <a class="dropdown-item" href="/planilha/grupo8" target="_blank">
+                    <div class="item-icon">🌱</div>
+                    <div class="item-text">
+                        <span class="item-title">Grupo 8 — Fundações e ONGs</span>
+                        <span class="item-sub">Filantrópicas e Organizações</span>
+                    </div>
+                </a>
+                <a class="dropdown-item" href="/planilha/grupo9" target="_blank">
+                    <div class="item-icon">🏛️</div>
+                    <div class="item-text">
+                        <span class="item-title">Grupo 9 — Bancos Comerciais</span>
+                        <span class="item-sub">Nacionais — Crédito Sustentável</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<header>
+    <h1>BioInvest</h1>
+    <p>Semeando o futuro dos seus investimentos</p>
+</header>
+
+<div class="filter-container">
+    <div class="filter-section">
+        <label>Selecione o setor de interesse:</label>
+        <select id="setor" onchange="filtrar()">
+            <option value="todos">Todos os Segmentos</option>
+            <option value="transporte">Transporte & Logística</option>
+            <option value="ambiental">Meio Ambiente & Sustentabilidade</option>
+            <option value="clima">Mudanças Climáticas</option>
+            <option value="energia">Energia & Descarbonização</option>
+            <option value="agronegocio">Agronegócio</option>
+        </select>
+    </div>
+</div>
+
+<div class="container">
+    <div id="lista">
+
+        <div class="card" data-setor="transporte">
+            <div class="card-header">
+                <h3>Programa PSI (ANTT)</h3>
+                <p class="short-desc">Sustentabilidade para Infraestrutura de Transporte.</p>
+                <div class="actions">
+                    <a href="https://www.gov.br/antt/pt-br" class="btn-visit" target="_blank">Visitar Site</a>
+                    <button class="btn-desc" onclick="toggleAccordion(this)">Descrição <span>⌵</span></button>
+                </div>
+            </div>
+            <div class="card-content">
+                <div class="info-item"><strong>Nome:</strong><span>Programa PSI</span></div>
+                <div class="info-item"><strong>Instituição:</strong><span>ANTT</span></div>
+                <div class="info-item"><strong>Abertura:</strong><span>13/11/2025</span></div>
+                <div class="info-item"><strong>Encerramento:</strong><span>13/06/2026</span></div>
+                <div class="info-item"><strong>País:</strong><span>Brasil</span></div>
+                <div class="info-item"><strong>Área Elegível:</strong><span>Rodovias e Ferrovias Federais</span></div>
+                <div class="info-item"><strong>Setor:</strong><span>Infraestrutura</span></div>
+                <div class="info-item"><strong>Moeda:</strong><span>BRL</span></div>
+                <div class="info-item"><strong>Escala:</strong><span>Nacional</span></div>
+                <div class="info-item"><strong>Valor por Projeto:</strong><span>Sob Consulta</span></div>
+            </div>
+        </div>
+
+        <div class="card" data-setor="ambiental">
+            <div class="card-header">
+                <h3>Global Environment Facility (GEF)</h3>
+                <p class="short-desc">Fomento à biodiversidade, energia e águas.</p>
+                <div class="actions">
+                    <a href="https://www.thegef.org/projects-operations/how-projects-work" class="btn-visit" target="_blank">Visitar Site</a>
+                    <button class="btn-desc" onclick="toggleAccordion(this)">Descrição <span>⌵</span></button>
+                </div>
+            </div>
+            <div class="card-content">
+                <div class="info-item"><strong>Nome:</strong><span>GEF Trust Fund</span></div>
+                <div class="info-item"><strong>Instituição:</strong><span>Global Environment Facility (GEF)</span></div>
+                <div class="info-item"><strong>Abertura:</strong><span>Contínuo</span></div>
+                <div class="info-item"><strong>Encerramento:</strong><span>Junho / 2026</span></div>
+                <div class="info-item"><strong>País:</strong><span>Multilateral</span></div>
+                <div class="info-item"><strong>Área Elegível:</strong><span>Países em desenvolvimento</span></div>
+                <div class="info-item"><strong>Setor:</strong><span>Meio Ambiente, biodiversidade, energia, florestas</span></div>
+                <div class="info-item"><strong>Moeda:</strong><span>USD</span></div>
+                <div class="info-item"><strong>Escala:</strong><span>Nacional/Transnacional</span></div>
+                <div class="info-item"><strong>Valor por Projeto:</strong><span>Até 5M (Médio) / Acima 5M (Completo)</span></div>
+            </div>
+        </div>
+
+        <div class="card" data-setor="transporte">
+            <div class="card-header">
+                <h3>InvestEU – Climate & Infrastructure</h3>
+                <p class="short-desc">Fundo para infraestrutura social e conectividade digital.</p>
+                <div class="actions">
+                    <a href="https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/home" class="btn-visit" target="_blank">Visitar Site</a>
+                    <button class="btn-desc" onclick="toggleAccordion(this)">Descrição <span>⌵</span></button>
+                </div>
+            </div>
+            <div class="card-content">
+                <div class="info-item"><strong>Nome:</strong><span>InvestEU - EOI</span></div>
+                <div class="info-item"><strong>Instituição:</strong><span>European Investment Fund (EIF)</span></div>
+                <div class="info-item"><strong>Abertura:</strong><span>05/12/2024</span></div>
+                <div class="info-item"><strong>Encerramento:</strong><span>30/06/2027</span></div>
+                <div class="info-item"><strong>País:</strong><span>União Europeia</span></div>
+                <div class="info-item"><strong>Área Elegível:</strong><span>Estados-Membros da UE</span></div>
+                <div class="info-item"><strong>Setor:</strong><span>Energia, Transporte, Conectividade, Digital</span></div>
+                <div class="info-item"><strong>Moeda:</strong><span>EUR</span></div>
+                <div class="info-item"><strong>Escala:</strong><span>Transnacional/Regional</span></div>
+                <div class="info-item"><strong>Valor por Projeto:</strong><span>Não aplicável (Via Intermediários)</span></div>
+            </div>
+        </div>
+
+        <div class="card" data-setor="agronegocio">
+            <div class="card-header">
+                <h3>CFC - 28ª Chamada Internacional</h3>
+                <p class="short-desc">Fomento para commodities sustentáveis e clima.</p>
+                <div class="actions">
+                    <a href="https://www.common-fund.org/index.php/call-for-proposals" class="btn-visit" target="_blank">Visitar Site</a>
+                    <button class="btn-desc" onclick="toggleAccordion(this)">Descrição <span>⌵</span></button>
+                </div>
+            </div>
+            <div class="card-content">
+                <div class="info-item"><strong>Nome:</strong><span>28th Call for Proposals</span></div>
+                <div class="info-item"><strong>Instituição:</strong><span>Common Fund for Commodities (CFC)</span></div>
+                <div class="info-item"><strong>Abertura:</strong><span>2025</span></div>
+                <div class="info-item"><strong>Encerramento:</strong><span>01/04/2026</span></div>
+                <div class="info-item"><strong>País:</strong><span>Multilateral Internacional</span></div>
+                <div class="info-item"><strong>Área Elegível:</strong><span>Global (Inclui Brasil)</span></div>
+                <div class="info-item"><strong>Setor:</strong><span>Agronegócio/Clima/Sustentabilidade</span></div>
+                <div class="info-item"><strong>Moeda:</strong><span>USD</span></div>
+                <div class="info-item"><strong>Escala:</strong><span>Nula</span></div>
+                <div class="info-item"><strong>Valor por Projeto:</strong><span>300.000 a 1.500.000 USD</span></div>
+            </div>
+        </div>
+
+        <div class="card" data-setor="clima">
+            <div class="card-header">
+                <h3>UK PACT</h3>
+                <p class="short-desc">Parceria para transições climáticas aceleradas.</p>
+                <div class="actions">
+                    <a href="http://ukpact.co.uk/country-programme/brazil" class="btn-visit" target="_blank">Visitar Site</a>
+                    <button class="btn-desc" onclick="toggleAccordion(this)">Descrição <span>⌵</span></button>
+                </div>
+            </div>
+            <div class="card-content">
+                <div class="info-item"><strong>Nome:</strong><span>UK PACT Brazil</span></div>
+                <div class="info-item"><strong>Instituição:</strong><span>Governo do Reino Unido (FCDO)</span></div>
+                <div class="info-item"><strong>Abertura:</strong><span>Contínuo</span></div>
+                <div class="info-item"><strong>Encerramento:</strong><span>Ciclos (Próximo Out/2026)</span></div>
+                <div class="info-item"><strong>País:</strong><span>Recurso Reino Unido</span></div>
+                <div class="info-item"><strong>Área Elegível:</strong><span>Países prioritários (Brasil, etc.)</span></div>
+                <div class="info-item"><strong>Setor:</strong><span>Energia, Transporte, Florestas, Finanças Verdes</span></div>
+                <div class="info-item"><strong>Moeda:</strong><span>EUR</span></div>
+                <div class="info-item"><strong>Escala:</strong><span>Nacional</span></div>
+                <div class="info-item"><strong>Valor por Projeto:</strong><span>100.000 a 1.000.000 EUR</span></div>
+            </div>
+        </div>
+
+        <div class="card" data-setor="energia">
+            <div class="card-header">
+                <h3>Innovation Fund (European Commission)</h3>
+                <p class="short-desc">Descarbonização da indústria pesada e hidrogênio.</p>
+                <div class="actions">
+                    <a href="https://climate.ec.europa.eu" class="btn-visit" target="_blank">Visitar Site</a>
+                    <button class="btn-desc" onclick="toggleAccordion(this)">Descrição <span>⌵</span></button>
+                </div>
+            </div>
+            <div class="card-content">
+                <div class="info-item"><strong>Nome:</strong><span>Innovation Fund</span></div>
+                <div class="info-item"><strong>Instituição:</strong><span>Comissão Europeia / CINEA</span></div>
+                <div class="info-item"><strong>Abertura:</strong><span>Contínuo</span></div>
+                <div class="info-item"><strong>Encerramento:</strong><span>Julho 2026</span></div>
+                <div class="info-item"><strong>País:</strong><span>União Europeia</span></div>
+                <div class="info-item"><strong>Área Elegível:</strong><span>Global (com foco em países UE/Parceiros)</span></div>
+                <div class="info-item"><strong>Setor:</strong><span>Hidrogênio, Indústria, Descarbonização</span></div>
+                <div class="info-item"><strong>Moeda:</strong><span>EUR</span></div>
+                <div class="info-item"><strong>Escala:</strong><span>Nacional / Transnacional</span></div>
+                <div class="info-item"><strong>Valor por Projeto:</strong><span>Pequena escala 7.5M / Grande escala > 7.5M</span></div>
+            </div>
+        </div>
+
+        <div class="card" data-setor="ambiental">
+            <div class="card-header">
+                <h3>BNDES - Fundo Amazônia</h3>
+                <p class="short-desc">Combate ao desmatamento e uso sustentável da floresta.</p>
+                <div class="actions">
+                    <a href="https://www.bndes.gov.br" class="btn-visit" target="_blank">Visitar Site</a>
+                    <button class="btn-desc" onclick="toggleAccordion(this)">Descrição <span>⌵</span></button>
+                </div>
+            </div>
+            <div class="card-content">
+                <div class="info-item"><strong>Nome:</strong><span>Fundo Amazônia</span></div>
+                <div class="info-item"><strong>Instituição:</strong><span>BNDES</span></div>
+                <div class="info-item"><strong>Abertura:</strong><span>Contínuo</span></div>
+                <div class="info-item"><strong>Encerramento:</strong><span>Indeterminado</span></div>
+                <div class="info-item"><strong>País:</strong><span>Brasil</span></div>
+                <div class="info-item"><strong>Área Elegível:</strong><span>Amazônia Legal</span></div>
+                <div class="info-item"><strong>Setor:</strong><span>Meio Ambiente / Sustentabilidade</span></div>
+                <div class="info-item"><strong>Moeda:</strong><span>BRL</span></div>
+                <div class="info-item"><strong>Escala:</strong><span>Nacional</span></div>
+                <div class="info-item"><strong>Valor por Projeto:</strong><span>Conforme Linhas</span></div>
+            </div>
+        </div>
+
+        <div class="card" data-setor="clima">
+            <div class="card-header">
+                <h3>Green Climate Fund</h3>
+                <p class="short-desc">O maior fundo climático para desenvolvimento resiliente.</p>
+                <div class="actions">
+                    <a href="https://www.greenclimate.fund/projects/access-funding" class="btn-visit" target="_blank">Visitar Site</a>
+                    <button class="btn-desc" onclick="toggleAccordion(this)">Descrição <span>⌵</span></button>
+                </div>
+            </div>
+            <div class="card-content">
+                <div class="info-item"><strong>Nome:</strong><span>GCF Fund</span></div>
+                <div class="info-item"><strong>Instituição:</strong><span>Green Climate Fund</span></div>
+                <div class="info-item"><strong>Abertura:</strong><span>Ciclos</span></div>
+                <div class="info-item"><strong>Encerramento:</strong><span>Contínuo</span></div>
+                <div class="info-item"><strong>País:</strong><span>Global</span></div>
+                <div class="info-item"><strong>Área Elegível:</strong><span>Global</span></div>
+                <div class="info-item"><strong>Setor:</strong><span>Mudanças Climáticas</span></div>
+                <div class="info-item"><strong>Moeda:</strong><span>USD</span></div>
+                <div class="info-item"><strong>Escala:</strong><span>Transnacional</span></div>
+                <div class="info-item"><strong>Valor por Projeto:</strong><span>Milhões de dólares</span></div>
+            </div>
+        </div>
+
+        <div class="card" data-setor="energia">
+            <div class="card-header">
+                <h3>BNDES Fundo Clima</h3>
+                <p class="short-desc">Mitigação de emissões e transição energética.</p>
+                <div class="actions">
+                    <a href="#" class="btn-visit">Visitar Site</a>
+                    <button class="btn-desc" onclick="toggleAccordion(this)">Descrição <span>⌵</span></button>
+                </div>
+            </div>
+            <div class="card-content">
+                <div class="info-item"><strong>Nome:</strong><span>Fundo Clima</span></div>
+                <div class="info-item"><strong>Instituição:</strong><span>BNDES</span></div>
+                <div class="info-item"><strong>Abertura:</strong><span>Contínuo</span></div>
+                <div class="info-item"><strong>Encerramento:</strong><span>Contínuo</span></div>
+                <div class="info-item"><strong>País:</strong><span>Brasil</span></div>
+                <div class="info-item"><strong>Área Elegível:</strong><span>Nacional</span></div>
+                <div class="info-item"><strong>Setor:</strong><span>Energia e Mobilidade Urbana</span></div>
+                <div class="info-item"><strong>Moeda:</strong><span>BRL</span></div>
+                <div class="info-item"><strong>Escala:</strong><span>Nacional</span></div>
+                <div class="info-item"><strong>Valor por Projeto:</strong><span>Conforme projetos</span></div>
+            </div>
+        </div>
+
+        <div class="card" data-setor="ambiental">
+            <div class="card-header">
+                <h3>BID - Investimentos Verdes</h3>
+                <p class="short-desc">Financiamento para desenvolvimento regional verde.</p>
+                <div class="actions">
+                    <a href="#" class="btn-visit">Visitar Site</a>
+                    <button class="btn-desc" onclick="toggleAccordion(this)">Descrição <span>⌵</span></button>
+                </div>
+            </div>
+            <div class="card-content">
+                <div class="info-item"><strong>Nome:</strong><span>BID Verde</span></div>
+                <div class="info-item"><strong>Instituição:</strong><span>Banco Interamericano</span></div>
+                <div class="info-item"><strong>Abertura:</strong><span>Sob demanda</span></div>
+                <div class="info-item"><strong>Encerramento:</strong><span>-</span></div>
+                <div class="info-item"><strong>País:</strong><span>América Latina</span></div>
+                <div class="info-item"><strong>Área Elegível:</strong><span>Brasil / América Latina</span></div>
+                <div class="info-item"><strong>Setor:</strong><span>Sustentabilidade</span></div>
+                <div class="info-item"><strong>Moeda:</strong><span>USD</span></div>
+                <div class="info-item"><strong>Escala:</strong><span>Transnacional</span></div>
+                <div class="info-item"><strong>Valor por Projeto:</strong><span>Sob consulta</span></div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<script>
+    function toggleDropdown() {
+        const dropdown = document.getElementById('planilhasDropdown');
+        dropdown.classList.toggle('open');
+    }
+
+    // Fechar dropdown ao clicar fora
+    document.addEventListener('click', function(e) {
+        const dropdown = document.getElementById('planilhasDropdown');
+        if (!dropdown.contains(e.target)) {
+            dropdown.classList.remove('open');
+        }
+    });
+
+    function toggleAccordion(btn) {
+        const card = btn.closest('.card');
+        card.classList.toggle('active');
+        const span = btn.querySelector('span');
+        span.textContent = card.classList.contains('active') ? '⌃' : '⌵';
+    }
+
+    function filtrar() {
+        const setor = document.getElementById('setor').value;
+        const cards = document.querySelectorAll('.card');
+        cards.forEach(card => {
+            if (setor === 'todos' || card.getAttribute('data-setor') === setor) {
+                card.classList.remove('hidden');
+            } else {
+                card.classList.add('hidden');
+            }
+        });
+    }
+</script>
+
+</body>
+</html>
