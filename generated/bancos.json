@@ -1,0 +1,560 @@
+[
+    {
+        "nome": "IKI Large Grants Call 2025 – Mitigação, Adaptação e Biodiversidade",
+        "instituicao": "GIZ / IKI – Iniciativa Internacional pelo Clima (Bundesregierung Alemanha, implementada por GIZ e ZUG)",
+        "descricao": "Instrumento competitivo de grande escala da IKI do Governo Federal Alemão, implementado pela GIZ e ZUG. Financia projetos de mitigação de GEE, adaptação climática e conservação da biodiversidade em países em desenvolvimento. A chamada 2025 definiu 11 prioridades temáticas/geográficas (restauração florestal, energias renováveis, sistemas alimentares, entre outras). Cada projeto recebe EUR 5M–20M por até 8 anos. Processo em duas fases: concept outline e proposta completa. Chamada lançada em 17/11/2025 na COP30 (Belém); 501 esboços recebidos até 17/02/2026. Elegíveis: ONGs, universidades, institutos de pesquisa, OIGs, empresas e organizações implementadoras alemãs. Novo ciclo anual previsto para nov/2026.",
+        "link": "#"
+    },
+    {
+        "nome": "IKI Small Grants – 7ª Chamada Internacional (Clima e Biodiversidade)",
+        "instituicao": "GIZ – Deutsche Gesellschaft für Internationale Zusammenarbeit (implementadora do IKI Small Grants, em nome do Governo Federal Alemão)",
+        "descricao": "Programa anual da IKI para organizações locais pequenas em países ODA-elegíveis. A 7ª chamada foi lançada em 17/11/2025 na COP30 (Belém) e encerrou inscrições em 15/01/2026 com recorde de 2.418 candidaturas. Organizações elegíveis na Fase 1 foram convidadas a submeter propostas completas até 17/03/2026 (Fase 2). Projetos selecionados recebem EUR 60.000–200.000 para ação climática/biodiversidade local ou regional + suporte de 'capacity development' (gestão, captação, monitoramento) gratuito pela GIZ. Início dos projetos: 2º trimestre de 2027. Desde 2019, mais de 250 projetos apoiados em +50 países, protegendo ~100.000 hectares e beneficiando ~48.000 pessoas. 8ª chamada prevista para nov/2026.",
+        "link": "#"
+    },
+    {
+        "nome": "Forest Action Facility (FAF) – Restauração de Paisagens Florestais na América Latina (KfW / IUCN)",
+        "instituicao": "KfW Development Bank (gestor principal) em parceria com IUCN (co-gestão operacional), financiado pelo BMZ – Ministério Federal Alemão de Cooperação Econômica e Desenvolvimento",
+        "descricao": "Plataforma de financiamento e implementação para Restauração de Paisagens Florestais (FLR) na América Latina, criada em dez/2024 e lançada no Congresso Mundial de Conservação da IUCN (Abu Dhabi, out/2025). Capital semente: EUR 19 milhões do BMZ para até 20 projetos em 6 anos. Janelas iniciais: América Central (Belize, Costa Rica, El Salvador, Guatemala, Honduras, Panamá) e Equador. Peru em negociação (+ EUR 10M potenciais). Abordagem inovadora via chamadas abertas de projetos com autoridades nacionais, convidando OSCs, instituições públicas, municípios e atores privados (cadeias de cacau e café). A OEA atua como parceira política para a janela América Central. Primeiros editais de projetos previstos para 2026. Expansão para África planejada.",
+        "link": "#"
+    },
+    {
+        "nome": "AFD – Appel à Manifestation d'Intention OSC 2025 / FISONG (Chamada para OSCs – Clima, Biodiversidade e Desenvolvimento)",
+        "instituicao": "AFD – Agence Française de Développement (Mecanismo I-OSC / FISONG, gerido pela Direção de Operações da AFD)",
+        "descricao": "A AFD mantém dois mecanismos de financiamento direto a OSCs: (1) AMI OSC (chamada anual aberta a OSCs francesas e internacionais para projetos em países ODA-elegíveis, com foco em clima, biodiversidade, gênero e direitos humanos; AMI 2025 em curso com documentos de referência publicados em jan/2025); e (2) FISONG (chamada temática periódica para práticas inovadoras). Cada projeto AMI pode receber até EUR 1.500.000. A AFD comprometeu EUR 17 bilhões na América Latina desde 2009. ATENÇÃO: a AFD comunicou oficialmente que em 2026 sua capacidade de financiamento estará 'extremamente restrita' – verificar disponibilidade diretamente no site antes de iniciar proposta.",
+        "link": "#"
+    },
+    {
+        "nome": "NORAD / NICFI – Chamada para Sociedade Civil 2025 (Florestas Tropicais 2026–2028)",
+        "instituicao": "NORAD – Agência Norueguesa de Cooperação para o Desenvolvimento, em nome da NICFI – Iniciativa Norueguesa para o Clima e Florestas (Ministério do Clima e Meio Ambiente da Noruega)",
+        "descricao": "A NICFI é a principal iniciativa da Noruega para proteção de florestas tropicais, comprometendo USD 350 milhões/ano desde 2008. A chamada para sociedade civil 2025 financia OSCs para projetos de 3 anos (2026–2028) visando reversão e redução do desmatamento tropical. Processo: concept notes aceitos até 24/04/2025; organizações pré-selecionadas convidadas em jun/2025 para propostas completas (prazo 18/09/2025). NORAD celebrará ~20–30 acordos de grant. Prioridades geográficas: Brasil, Colômbia, Equador, Peru, Congo-Kinshasa, Gabão, Etiópia e Indonésia. Valores: NOK 15M–75M/ano (≈ USD 1,4M–7M/ano); projeto 3 anos = NOK 45M–225M total (≈ USD 4,2M–21M). Consórcios exigidos para grants acima de NOK 50M/ano.",
+        "link": "#"
+    },
+    {
+        "nome": "UK PACT Brasil – Governança Climática Federativa e Implementação do Plano Clima",
+        "instituicao": "UK PACT – Partnering for Accelerated Climate Transitions (FCDO – Foreign, Commonwealth and Development Office + DESNZ – Department for Energy Security and Net Zero, Governo do Reino Unido)",
+        "descricao": "O UK PACT é um programa britânico de cooperação técnica e fortalecimento de capacidades, financiado pelas Finanças Climáticas Internacionais do Reino Unido. No Brasil, a chamada 2025 buscou iniciativas que fortalecessem a governança climática federativa e apoiassem a implementação do Plano Clima brasileiro, especialmente o alinhamento entre a NDC nacional e os planos climáticos subnacionais (estados, DF, regiões metropolitanas e municípios). Prazo: 15/12/2025. UK PACT também opera em Índia, México, África do Sul e Indonésia. Historicamente, projetos UK PACT no Brasil variaram de GBP 500K a GBP 5M. O programa opera em chamadas periódicas por país e tema.",
+        "link": "#"
+    },
+    {
+        "nome": "DEG – Deutsche Investitions- und Entwicklungsgesellschaft – Financiamento Privado para Clima e Energia",
+        "instituicao": "DEG – Deutsche Investitions- und Entwicklungsgesellschaft (subsidiária da KfW, banco de desenvolvimento público alemão; modelo similar ao IFC – Banco Mundial)",
+        "descricao": "A DEG é o braço de financiamento ao setor privado da KfW. Financia empresas privadas e intermediários financeiros em países em desenvolvimento e emergentes, com foco em projetos de impacto: energia renovável (solar, eólica, hídrica, biomassa), eficiência energética, agropecuária sustentável, infraestrutura verde e cadeias de valor de baixo carbono. Estrutura instrumentos de dívida de longo prazo, participações acionárias e blended finance para catalisar investimentos privados adicionais. Em 2024, a KfW registrou recorde de EUR 11,8 bilhões em financiamento climático internacional. Processo contínuo, sem chamadas – empresas podem submeter interesse a qualquer momento via formulário no site da DEG. Não financia ONGs ou entidades sem fins lucrativos.",
+        "link": "#"
+    },
+    {
+        "nome": "Sida – Estratégia de Cooperação com Sociedade Civil 2025–2029 (Clima, Biodiversidade e Meio Ambiente)",
+        "instituicao": "Sida – Swedish International Development Cooperation Agency (agência governamental sueca, vinculada ao Ministério dos Negócios Estrangeiros da Suécia)",
+        "descricao": "A Sida orienta sua parceria com OSCs pela Estratégia de Cooperação com a Sociedade Civil 2025–2029. Clima, biodiversidade e meio ambiente são eixos temáticos centrais. A Sida financia OSCs suecas (grandes organizações 'guarda-chuva' como WWF-Suécia e Sociedade Sueca para a Conservação da Natureza) e OSCs internacionais, que repassam recursos para parceiros locais em países prioritários (América Latina: Bolívia, Colômbia, Guatemala; África Subsaariana; Ásia). ATENÇÃO IMPORTANTE: a Sida confirmou em mai/2025 que NÃO há chamadas abertas para OSCs no momento (processos internos em andamento). Próximo ciclo de chamadas para grants maiores previsto para 2027 (acordos a partir de 2028). Acesso atual: contato com embaixadas suecas nos países parceiros ou via OSC sueca parceira.",
+        "link": "#"
+    },
+    {
+        "nome": "DANIDA / DFC – Chamada para Pesquisa de Desenvolvimento 2026 (Clima, Meio Ambiente e Desenvolvimento Sustentável)",
+        "instituicao": "DANIDA – Danish International Development Assistance (Ministério dos Negócios Estrangeiros da Dinamarca), via Danida Fellowship Centre (DFC) e Comitê FFU",
+        "descricao": "O Danida Fellowship Centre (DFC) publica anualmente a Chamada para Pesquisa de Desenvolvimento, financiada pelo FFU. A chamada 2026 teve prazo em 05/02/2026 (Fase 1 – concept note), com início dos projetos em abr/2027. Financia pesquisa colaborativa entre instituições dinamarquesas e instituições de países parceiros prioritários do DANIDA (foco em África e Ásia; América Latina com presença mais limitada – Guatemala, Bolívia, Colômbia são parceiros históricos). Cada projeto: até DKK 10 milhões (≈ EUR 1,34M) por até 5 anos. Alocação total chamada 2026: DKK 200 milhões. Processo em duas fases: Phase 1 (concept note) → prequalificação → Phase 2 (proposta completa). Próxima chamada estimada para nov/2026, com prazo em jan–fev/2027.",
+        "link": "#"
+    },
+    {
+        "nome": "Proparco – Green Line – Financiamento ao Setor Privado para Clima e Biodiversidade",
+        "instituicao": "Proparco – Société de Promotion et de Participation pour la Coopération Économique (filial do Grupo AFD – Agence Française de Développement; política pública francesa de cooperação e desenvolvimento)",
+        "descricao": "A Proparco é o braço de financiamento ao setor privado do Grupo AFD, com carteira de mais de EUR 10 bilhões e atuação em +90 países. A 'Green Line' é o instrumento dedicado a projetos com impacto positivo no clima e na biodiversidade: energia renovável (solar, eólica, hídrica), eficiência energética, mobilidade sustentável, agricultura de baixo carbono, cidades resilientes e conservação de ecossistemas com modelo de negócio viável. Instrumentos: dívida de longo prazo, equity e blended finance; frequentemente co-financia com GCF (Green Climate Fund), EDFI e outros parceiros. A AFD comprometeu EUR 17 bilhões na América Latina desde 2009. No Brasil: linha de EUR 100M ao Banco do Brasil para energia solar/PMEs. Proparco aceita propostas continuamente via concept note pelo site. Não financia ONGs ou entidades sem fins lucrativos.",
+        "link": "#"
+    },
+    {
+        "nome": "CCAC – Food & Nutrition Challenge 2025 – Ação Global contra Perda Alimentar e Superpoluentes (SLCPs)",
+        "instituicao": "CCAC – Climate and Clean Air Coalition (secretariada pela UNEP – Programa das Nações Unidas para o Meio Ambiente; parceria de +200 governos, OIGs, empresas e OSCs desde 2012)",
+        "descricao": "O CCAC financia projetos em países em desenvolvimento para reduzir poluentes climáticos de vida curta (SLCPs): metano, carbono negro, ozônio troposférico e HFCs – responsáveis por ~50% do aquecimento global atual. A Food & Nutrition Challenge 2025 foi lançada em jun/2025 focando em sistemas alimentares: projetos cross-setoriais que reduzam SLCPs ligados à perda e desperdício alimentar e fortaleçam segurança alimentar. Prazo concept notes: 06/08/2025. Projetos selecionados anunciados no COP30 (Belém, nov/2025). Cada projeto: até USD 2.000.000 / 24 meses. Áreas de foco: (1) ciclos de nutrientes/economia circular; (2) agroecologia; (3) cadeia de frio sustentável; (4) prevenção de desperdício alimentar; (5) sistemas financeiros transparentes. Projetos devem cobrir ≥2 áreas. Gênero obrigatório para projetos ≥ USD 100K. Próxima chamada prevista para 2026.",
+        "link": "#"
+    },
+    {
+        "nome": "FNE Giro (Capital de Giro Isolado)",
+        "instituicao": "Banco (BNB) / Fundo Constitucional de Financiamento do Nordeste (FNE)",
+        "descricao": "Financiamento de capital de giro para empresas de todos os portes, visando a aquisição de matérias-primas, insumos, formação de estoques e gastos operacionais para manutenção da atividade econômica.",
+        "link": "#"
+    },
+    {
+        "nome": "BRDE Capital de Giro (Associado a Investimento ou Linhas Emergenciais)",
+        "instituicao": "BRDE",
+        "descricao": "Financiamento para reforço do caixa de empresas que estão realizando investimentos produtivos ou que necessitam de suporte operacional (ex: exportadores).",
+        "link": "#"
+    },
+    {
+        "nome": "Linha de Crédito para Micro e Pequenas Empresas",
+        "instituicao": "Fomento Paraná",
+        "descricao": "Crédito destinado a empreendedores para capital de giro puro (manutenção de estoque/pagamentos) ou investimento fixo (obras/máquinas)",
+        "link": "#"
+    },
+    {
+        "nome": "Badesul Giro",
+        "instituicao": "Badesul Desenvolvimento S.A",
+        "descricao": "Suporte financeiro para o ciclo operacional das empresas gaúchas, visando a retomada econômica e expansão.",
+        "link": "#"
+    },
+    {
+        "nome": "Finep Mais Inovação Brasil – Economia Circular e Cidades Sustentáveis",
+        "instituicao": "FINEP (Financiadora de Estudos e Projetos)",
+        "descricao": "Subvenção econômica para empresas brasileiras desenvolverem tecnologias em economia circular, saneamento e segurança hídrica",
+        "link": "#"
+    },
+    {
+        "nome": "Fundo Clima 2026 – Linha Inovação e Carbono Neutro",
+        "instituicao": "BNDES (Gestor)",
+        "descricao": "Financiamento para projetos de redução de emissões de gases de efeito estufa e adaptação às mudanças climáticas.",
+        "link": "#"
+    },
+    {
+        "nome": "47º Edital Fundo Ecos – TICCAs",
+        "instituicao": "ISPN (Instituto Sociedade, População e Natureza)",
+        "descricao": "Apoio direto a Territórios e Áreas Conservadas por Povos Indígenas e Comunidades Locais (TICCAs)",
+        "link": "#"
+    },
+    {
+        "nome": "Edital Fapesp – Pesquisa Inovativa em Pequenas Empresas (PIPE)",
+        "instituicao": "FAPESP (Fundação de Amparo à Pesquisa do Estado de SP)",
+        "descricao": "Apoio à pesquisa científica e tecnológica em startups e pequenas empresas para o desenvolvimento de produtos inovadores",
+        "link": "#"
+    },
+    {
+        "nome": "Finep Mais Inovação Brasil – Economia Circular",
+        "instituicao": "FINEP",
+        "descricao": "Subvenção para tecnologias em economia circular e segurança hídrica.",
+        "link": "#"
+    },
+    {
+        "nome": "Fundo Clima 2026 – Inovação e Carbono Neutro",
+        "instituicao": "BNDES",
+        "descricao": "Crédito para redução de emissões e adaptação climática.",
+        "link": "#"
+    },
+    {
+        "nome": "Bioeconomia Brasil-Suécia (Embrapii)",
+        "instituicao": "EMBRAPII / Vinnova",
+        "descricao": "Cooperação internacional para descarbonização industrial.",
+        "link": "#"
+    },
+    {
+        "nome": "Crédito Comunitário Sustentável 2026",
+        "instituicao": "Fundo de Impacto",
+        "descricao": "Apoio a microfinanças comunitárias.",
+        "link": "#"
+    },
+    {
+        "nome": "Edital Fundação Grupo Boticário 2026",
+        "instituicao": "Fundação Grupo Boticário",
+        "descricao": "Conservação da natureza e NbS.",
+        "link": "#"
+    },
+    {
+        "nome": "BNDES – Fundo Clima (Programa principal com várias modalidades)",
+        "instituicao": "BNDES (recursos do Fundo Nacional sobre Mudança do Clima – FNMC)",
+        "descricao": "Financiamento reembolsável para projetos de mitigação e adaptação climática, com modalidades como Indústria Verde, Transição Energética, Florestas Nativas e Recursos Hídricos, Máquinas Verdes, Serviços e Inovação Verdes, Desenvolvimento Urbano Resiliente, Logística Verde etc. Objetivo: redução de emissões, economia circular, energias renováveis e resiliência.",
+        "link": "#"
+    },
+    {
+        "nome": "BNDES – Chamada Pública para Seleção de Fundos com Foco em Mitigação Climática (Chamada de Clima)",
+        "instituicao": "BNDES/BNDESPAR",
+        "descricao": "Seleção de fundos de equity e crédito para alavancar investimentos em Transformação Ecológica e Soluções Baseadas na Natureza (restauração, descarbonização industrial, NbS).",
+        "link": "#"
+    },
+    {
+        "nome": "BRDE – Mais Energia Sustentável (e extensões BRDE Energias Limpas e Renováveis / Eficiência Energética)",
+        "instituicao": "BRDE (Banco Regional de Desenvolvimento do Extremo Sul)",
+        "descricao": "Financiamento para geração/transmissão de energia renovável (solar, eólica, hídrica etc.), eficiência energética e minimização de consumo.",
+        "link": "#"
+    },
+    {
+        "nome": "BASA – FNO Amazônia Empresarial Verde (e Energia Verde)",
+        "instituicao": "Banco da Amazônia (BASA) – Fundo Constitucional de Financiamento do Norte (FNO)",
+        "descricao": "Crédito para negócios com menor impacto ambiental, modernização sustentável, energias renováveis para consumo próprio e agropecuária sustentável na Amazônia.",
+        "link": "#"
+    },
+    {
+        "nome": "BNB – FNE Verde",
+        "instituicao": "Banco do Nordeste (BNB) – Fundo Constitucional de Financiamento do Nordeste (FNE)",
+        "descricao": "Financiamento para preservação, recuperação ambiental, tecnologias verdes, infraestrutura sustentável e atividades de baixo carbono.",
+        "link": "#"
+    },
+    {
+        "nome": "Finep – Mais Inovação Brasil – Rodada 2 – Economia Circular e Cidades Sustentáveis",
+        "instituicao": "Finep (com FNDCT)",
+        "descricao": "Subvenção econômica para PD&I em Economia Circular (design circular, reciclagem, novos modelos de negócio), Químicos de Renováveis, Água/Esgoto e Moradia/Espaços Públicos Sustentáveis, em parceria com ICTs.",
+        "link": "#"
+    },
+    {
+        "nome": "Finep – Mais Inovação Brasil – Rodada 2 – Cadeias Agroindustriais Sustentáveis (ou similares)",
+        "instituicao": "Finep",
+        "descricao": "Subvenção para inovação em cadeias agro sustentáveis, foodtech e soluções de baixo carbono na agricultura.",
+        "link": "#"
+    },
+    {
+        "nome": "Desenvolve SP – Linhas Verdes (Energia Solar, Eficiência, Saneamento, Resíduos)",
+        "instituicao": "Desenvolve SP (banco de desenvolvimento de São Paulo)",
+        "descricao": "Financiamento para projetos sustentáveis públicos e privados: energia solar, eficiência energética, gestão de resíduos, redução de CO₂ e saneamento",
+        "link": "#"
+    },
+    {
+        "nome": "Badesul – Cidades + Verdes (Soluções Baseadas na Natureza – SbN)",
+        "instituicao": "Badesul (Rio Grande do Sul)",
+        "descricao": "Crédito para drenagem sustentável, renaturalização de cursos d’água, jardins de chuva, biovaletas e resiliência urbana",
+        "link": "#"
+    },
+    {
+        "nome": "BNDES – Estudo Técnico Certificação de Créditos de Carbono (Seleção Pública FEP)",
+        "instituicao": "BNDES (em parceria com MF e MMA)",
+        "descricao": "Contratação de estudo sobre mercado de certificação de créditos de carbono no Brasil (diagnóstico, atores, aprimoramento)",
+        "link": "#"
+    },
+    {
+        "nome": "Vox Capital — Tech for Good Growth II",
+        "instituicao": "Vox Capital Gestão de Recursos Ltda.",
+        "descricao": "Quarto fundo proprietário de venture capital da Vox Capital, em captação desde 2025. Investe em startups Série A e B com alto potencial de impacto socioambiental positivo e escalabilidade, especialmente em healthtech, edtech e fintech inclusivo. Única gestora brasileira com carry vinculado à performance de impacto.",
+        "link": "#"
+    },
+    {
+        "nome": "Rise Ventures — Fundo de Private Equity de Impacto",
+        "instituicao": "Rise Ventures Gestão de Recursos",
+        "descricao": "Gestora de growth private equity focada em empresas de economia real tech-enabled que geram impacto socioambiental positivo e mensurável. Investe em três verticais: Social (educação, saúde, crédito, habitação), Natureza (energia limpa, saneamento, mobilidade sustentável) e Bem-estar (alimentação saudável, saúde preventiva). Empresa B certificada e signatária do Pacto Global da ONU.",
+        "link": "#"
+    },
+    {
+        "nome": "Positive Ventures — Fundo de Impacto",
+        "instituicao": "Positive Ventures",
+        "descricao": "Gestora de investimentos de impacto que direciona capital para empresas que solucionam os maiores desafios sociais e ambientais do planeta. Realiza apenas 'investimentos decisivos' — empresas onde o impacto é estrutural ao modelo de negócio. Opera em duas verticais: Prosperidade Planetária (clima, biodiversidade, economia circular) e Resiliência Social (saúde, educação, crédito, cidades). Monitora KPIs mensais com validação externa de J-PAL, Insper e FGV.",
+        "link": "#"
+    },
+    {
+        "nome": "Fundepar / Arapy — Programa de Investimento em Negócios de Impacto (UFMG)",
+        "instituicao": "Fundep Participações S/A (Fundepar) — Fundação de Apoio da UFMG",
+        "descricao": "Gestora de fundos nascida da UFMG. Programa Arapy investe em negócios de impacto social alinhados aos 17 ODS da ONU, sem restrição de densidade tecnológica. Áreas prioritárias: saúde, educação, moradia, clima, economia criativa, transformação digital e acesso à justiça. Cada R$ 1 investido pela Fundepar historicamente atraiu R$ 1,5 em subvenção e R$ 3,8 em novas rodadas.",
+        "link": "#"
+    },
+    {
+        "nome": "Mov Investimentos — Growth Equity de Impacto",
+        "instituicao": "Mov Investimentos",
+        "descricao": "Gestora de growth equity focada em empresas com propósito explícito e estrutural no modelo de negócio — não como camada ESG sobreposta. Liderada por ex-executivos do Grupo Pão de Açúcar. Investe em consumo sustentável, agronegócio responsável e saúde. Busca empresas onde o propósito é condição de competitividade, não diferencial secundário.",
+        "link": "#"
+    },
+    {
+        "nome": "Blue like an Orange Sustainable Capital — Fundo de Impacto LatAm",
+        "instituicao": "Blue like an Orange Sustainable Capital",
+        "descricao": "Gestora europeia com operação local na América Latina. Investe via mezzanine (crédito estruturado conversível em equity) em empresas que demonstrem impacto social e/ou ambiental positivo. Foco em middle market — empresas rentáveis com necessidade de financiamento de longo prazo. Co-investimento com BID (US$ 40M+ já investidos juntos). Metodologia SDG Blue open-source para mensuração de impacto.",
+        "link": "#"
+    },
+    {
+        "nome": "Fundo Brasil — Soluções Climáticas (Raízes + Labora)",
+        "instituicao": "Fundo Brasil de Direitos Humanos",
+        "descricao": "Chamada dirigida com duas iniciativas simultâneas: Raízes (Justiça Climática para Povos Indígenas e Comunidades Tradicionais) e Labora (Fundo de Apoio ao Trabalho Digno). Apoia organizações da sociedade civil que atuam na defesa de direitos socioambientais, fortalecimento institucional e ação climática comunitária. Recurso não reembolsável (doação).",
+        "link": "#"
+    },
+    {
+        "nome": "FSA CAIXA — Fundo Socioambiental Caixa Econômica Federal",
+        "instituicao": "Caixa Econômica Federal",
+        "descricao": "Fundo criado em 2010 para apoiar projetos socioambientais alinhados ao desenvolvimento sustentável. Já destinou mais de R$ 462 milhões a 240 iniciativas. Atua em linhas temáticas: Biodiversidade e Serviços Ecossistêmicos, Soluções Baseadas na Natureza, Negócios da Bioeconomia, Habitação Sustentável e Inclusão Socioeconômica. Captação contínua — aberto o ano todo.",
+        "link": "#"
+    },
+    {
+        "nome": "Fama re.capital — Gestão de Investimentos Sustentáveis",
+        "instituicao": "Fama Investimentos / re.capital",
+        "descricao": "Única gestora brasileira fundada 100% com critérios socioambientais, desde 1993. Investe exclusivamente em ações de empresas listadas na B3 que tenham propósito socioambiental genuíno e integrado ao negócio. Não é PE privado — foco em empresas de capital aberto. Relevante para PMEs em processo de abertura de capital (IPO) que queiram ter a Fama como acionista referência em sustentabilidade.",
+        "link": "#"
+    },
+    {
+        "nome": "SITAWI Finanças do Bem — Blended Finance e Finanças de Impacto",
+        "instituicao": "SITAWI Finanças do Bem (ONG)",
+        "descricao": "ONG pioneira em finanças de impacto no Brasil, fundada em 2008. Mobiliza e estrutura capital para negócios socioambientais via blended finance, fundos socioambientais rotativos, bonds de impacto e crédito paciente. Já mobilizou mais de R$ 450 milhões para +2.980 iniciativas, beneficiando 14 milhões de pessoas. Atua como estruturadora de operações — não é um fundo tradicional, mas conecta empresas a instrumentos financeiros de impacto.",
+        "link": "#"
+    },
+    {
+        "nome": "Programa ICMS Ecológico - Biodiversidade e Mananciais de Abastecimento Público",
+        "instituicao": "Instituto Água e Terra",
+        "descricao": "É um instrumento de política pública que trata do repasse de recursos financeiros aos municípios que abrigam em seus territórios Unidades de Conservação ou Mananciais para Abastecimento de municípios vizinhos.",
+        "link": "#"
+    },
+    {
+        "nome": "Paraná Inteligente Artificial",
+        "instituicao": "Fomento Paraná",
+        "descricao": "A Fomento Paraná tem por finalidade fornecer apoio financeiro para iniciativas de modernização e ampliação das atividades de pequenas e médias empresas e micro e pequenos empreendedores, do campo ou da cidade, de forma a estimular a geração de emprego e renda no estado.",
+        "link": "#"
+    },
+    {
+        "nome": "Fundo Amazônia",
+        "instituicao": "Banco Nacional de Desenvolvimento Econômico e Social (BNDES)",
+        "descricao": "Fundo destinado a financiar projetos voltados à prevenção, monitoramento e combate ao desmatamento, bem como à conservação e uso sustentável das florestas na Amazônia Legal, por meio de recursos não reembolsáveis provenientes de doações internacionais.",
+        "link": "#"
+    },
+    {
+        "nome": "Fundo Clima (Programa Fundo Nacional sobre Mudança do Clima – BNDES)",
+        "instituicao": "Banco Nacional de Desenvolvimento Econômico e Social (BNDES) / Ministério do Meio Ambiente",
+        "descricao": "Programa destinado ao financiamento de projetos, aquisição de equipamentos e desenvolvimento tecnológico voltados à mitigação das mudanças climáticas e adaptação aos seus efeitos, com foco na redução de emissões de gases de efeito estufa e sustentabilidade ambiental.",
+        "link": "#"
+    },
+    {
+        "nome": "RenovaBio – Política Nacional de Biocombustíveis",
+        "instituicao": "Agência Nacional do Petróleo, Gás Natural e Biocombustíveis (ANP) / Ministério de Minas e Energia (MME)",
+        "descricao": "Política pública que visa ampliar a produção e o uso de biocombustíveis no Brasil, promovendo a redução de emissões de gases de efeito estufa por meio de metas de descarbonização e da geração de Créditos de Descarbonização (CBIOs), negociados no mercado.",
+        "link": "#"
+    },
+    {
+        "nome": "Lixão zero",
+        "instituicao": "Ministério do Meio Ambiente e Mudança do Clima (MMA)",
+        "descricao": "Programa federal de apoio técnico e institucional para encerramento de lixões, ampliação da coleta seletiva, reciclagem, logística reversa e destinação final ambientalmente adequada de resíduos sólidos urbanos",
+        "link": "#"
+    },
+    {
+        "nome": "Plano Safra 2025/2026 – Agricultura Empresarial",
+        "instituicao": "Governo Federal/Ministério\n da Agricultura\n e Pecuária – MAPA",
+        "descricao": "Plano de crédito rural para médios e grandes produtores, cooperativas e agricultura empresarial, com recursos para custeio, comercialização e investimento.",
+        "link": "#"
+    },
+    {
+        "nome": "BNDES",
+        "instituicao": "Banco Nacional de Desenvolvimento Econômico e Social (BNDES)",
+        "descricao": "Banco público federal brasileiro criado para financiar o desenvolvimento econômico e social do país. Ele oferece crédito com condições especiais para empresas e governos investirem em áreas como infraestrutura, indústria, inovação, sustentabilidade e geração de empregos, sendo um dos principais instrumentos do governo para estimular o crescimento econômico no Brasil.",
+        "link": "#"
+    },
+    {
+        "nome": "Projeto floresta + amazonia",
+        "instituicao": "Ministério do Meio Ambiente (MMA) + Fundo Verde para o Clima (GCF) + PNUD",
+        "descricao": "Programa que incentiva financeiramente a conservação e recuperação da floresta amazônica por meio de pagamentos diretos a produtores rurais, comunidades tradicionais e povos indígenas, promovendo redução do desmatamento e emissões de carbono.",
+        "link": "#"
+    },
+    {
+        "nome": "Programa ABC",
+        "instituicao": "Ministério da Agricultura e Pecuária",
+        "descricao": "Política pública que promove a agricultura de baixa emissão de carbono, incentivando práticas sustentáveis no setor agropecuário, como recuperação de pastagens, integração lavoura-pecuária-floresta e uso eficiente de recursos naturais.",
+        "link": "#"
+    },
+    {
+        "nome": "Política Nacional de Pagamento por Serviços Ambientais",
+        "instituicao": "Ministério do Meio Ambiente e Mudança do Clima",
+        "descricao": "Política pública que incentiva a conservação e recuperação do meio ambiente por meio de compensações financeiras a produtores e proprietários rurais que prestam serviços ambientais, como preservação de florestas, proteção de recursos hídricos e manutenção da biodiversidade.",
+        "link": "#"
+    },
+    {
+        "nome": "Plano Nacional de Recuperação da Vegetação Nativa",
+        "instituicao": "Ministério do Meio Ambiente e Mudança do Clima",
+        "descricao": "Política pública voltada à recuperação da vegetação nativa em larga escala no Brasil, com foco na restauração de ecossistemas, recomposição de áreas degradadas e cumprimento do Código Florestal, contribuindo para a mitigação das mudanças climáticas e conservação da biodiversidade.",
+        "link": "#"
+    },
+    {
+        "nome": "Fundo Amazônia",
+        "instituicao": "BNDES",
+        "descricao": "Prevenção do desmatamento e conservação da Amazônia",
+        "link": "#"
+    },
+    {
+        "nome": "Climate Finance (CFC Open Call 2026)",
+        "instituicao": "Common Fund for Commodities (CFC)",
+        "descricao": "Chamada internacional para financiamento de projetos sustentáveis e climáticos com foco em cadeias produtivas, sustentabilidade, inovação e adaptação climática em países em desenvolvimento.",
+        "link": "#"
+    },
+    {
+        "nome": "Request for Proposals – Private Sector Facility (PSF)",
+        "instituicao": "Green Climate Fund",
+        "descricao": "Chamada internacional para seleção de projetos e programas que mobilizem investimento privado em soluções climáticas, com foco em mitigação e adaptação em países em desenvolvimento.",
+        "link": "#"
+    },
+    {
+        "nome": "Adaptation Fund – Continuous Submission of Projects and Programmes",
+        "instituicao": "Adaptation Fund (UNFCCC)",
+        "descricao": "Financiamento para projetos e programas de adaptação climática em países em desenvolvimento, com submissão em fluxo contínuo por entidades acreditadas.",
+        "link": "#"
+    },
+    {
+        "nome": "Green Climate Fund (GCF) – Janela de Financiamento de Projetos e Programas",
+        "instituicao": "Green Climate Fund (GCF)",
+        "descricao": "OportunidadeFundo internacional que apoia países em desenvolvimento na implementação de suas contribuições climáticas (NDCs), investindo em mitigação e adaptação climática por meio de projetos em quatro áreas: ambiente construído; energia e indústria; segurança humana e meios de vida; e uso da terra, florestas e ecossistemas.",
+        "link": "#"
+    },
+    {
+        "nome": "Global Environment Facility (GEF) – Trust Fund / Projetos de Tamanho Completo e Médio",
+        "instituicao": "Global Environment Facility (GEF)",
+        "descricao": "Fundo multilateral que concede grants e blended finance a países em desenvolvimento para projetos de biodiversidade, mudanças climáticas, degradação de terras, águas internacionais e poluentes persistentes, gerando benefícios ambientais globais.",
+        "link": "#"
+    },
+    {
+        "nome": "InvestEU – Climate & Infrastructure Funds (Call for Expression of Interest - EOI)",
+        "instituicao": "European Investment Fund (EIF) (no âmbito do Programa InvestEU)",
+        "descricao": "É uma chamada aberta do Programa InvestEU voltada para intermediários financeiros como fundos de investimento, fundos de fundos e veículos de propósito específico (ex.: SPVs)  que mobilizam capital privado para investir em clima e infraestrutura. Esses intermediários têm até 30/06/2027 para enviar a manifestação de interesse (EOI). O foco dos investimentos inclui áreas como energia, transporte e meio ambiente",
+        "link": "#"
+    },
+    {
+        "nome": "CFC - 28ª Chamada internacional de Propostas - Climate & Sustainable Commodity Finance",
+        "instituicao": "Common Fund for Commodities",
+        "descricao": "Edital internacional voltado ao financiamento de projetos sustentáveis em cadeias produtivas, com foco em impacto climático, inclusão de pequenos produtores e desenvolvimento econômico. O fundo apoia iniciativas que conectam viabilidade financeira com regeneração ambiental.",
+        "link": "#"
+    },
+    {
+        "nome": "UK PACT (Partnering for Accelerated Climate Transitions)",
+        "instituicao": "Governo do Reino Unido (Foreign, Commonwealth & Development Office)",
+        "descricao": "Programa que apoia países em desenvolvimento (incluindo o Brasil) em projetos de assistência técnica para acelerar a transição de baixo carbono e reduzir emissões de GEE.",
+        "link": "#"
+    },
+    {
+        "nome": "Accelerated Climate Transitions)Innovation Fund (European Commission)",
+        "instituicao": "Comissão Europeia / Agência Executiva Europeia para o Clima (CINEA)",
+        "descricao": "Um dos maiores programas de financiamento do mundo para o desenvolvimento de tecnologias inovadoras de baixo carbono (hidrogênio, CCUS, armazenamento de energia).",
+        "link": "#"
+    },
+    {
+        "nome": "Green Climate Fund – Small Grants Programme",
+        "instituicao": "Green Climate Fund",
+        "descricao": "Financiamento de projetos voltados à mitigação das mudanças climáticas, incluindo iniciativas de sustentabilidade, bioeconomia e apoio a pequenas e médias empresas.",
+        "link": "#"
+    },
+    {
+        "nome": "Fundo Amazônia (Fundação não filantrópica)",
+        "instituicao": "BNDES",
+        "descricao": "Apoio financeiro a projetos que promovem conservação ambiental, uso sustentável de recursos naturais e desenvolvimento sustentável, incluindo iniciativas de bioeconomia.",
+        "link": "#"
+    },
+    {
+        "nome": "Clima na Economia: Integrando a questão climática à agenda econômica.",
+        "instituicao": "Instituto Clima e Sociedade (iCS)",
+        "descricao": "Apoio a projetos de pesquisa aplicada que integrem economia e mudanças climáticas, visando gerar evidências, ferramentas e recomendações para decisões públicas e privadas e fortalecer a produção de conhecimento prático.",
+        "link": "#"
+    },
+    {
+        "nome": "Crédito Comunitário Sustentável (CCS) – Ampliando o acesso ao crédito rural para agricultores e agricultoras familiares por meio de organizações comunitárias",
+        "instituicao": "Fundo Casa Socioambiental",
+        "descricao": "O objetivo é fortalecer organizações rurais e associações comunitárias para que estas apoiem pequenos produtores no acesso a financiamentos e na adoção de práticas de agricultura regenerativa",
+        "link": "#"
+    },
+    {
+        "nome": "Territórios Conservados por Povos Indígenas e Comunidades Tradicionais e Locais - TICCAS: Fortalecimento de Segurança Alimentar e Governança de Territórios de Comunidades do Cerrado e da Caatinga",
+        "instituicao": "Instituto Sociedade, População e Natureza (ISPN) / Fundo Ecos",
+        "descricao": "O edital visa promover paisagens resilientes, fortalecer a segurança alimentar e a governança de territórios conservados (TICCAS) nos biomas Cerrado e Caatinga, apoiando projetos de base comunitária que gerem benefícios ambientais globais e desenvolvimento rural sustentável",
+        "link": "#"
+    },
+    {
+        "nome": "Itaipu Mais que Energia (Fundação não filantrópica)",
+        "instituicao": "ITAIPU Binacional em parceria com a Caixa Econômica Federal",
+        "descricao": "Apoio a iniciativas com potencial de inovação, transformação social e ambiental, preservação do patrimônio e promoção do desenvolvimento de populações em situação de vulnerabilidade, visando à segurança hídrica e energética.",
+        "link": "#"
+    },
+    {
+        "nome": "Grand Challenges – Global Health & Development",
+        "instituicao": "Bill & Melinda Gates Foundation",
+        "descricao": "Financiamento de projetos inovadores voltados à saúde global, incluindo desenvolvimento de vacinas, combate a doenças infecciosas e soluções tecnológicas para países em desenvolvimento.",
+        "link": "#"
+    },
+    {
+        "nome": "XPrize Carbon Removal (apoio Musk Foundation)",
+        "instituicao": "Musk Foundation",
+        "descricao": "Financiamento de soluções inovadoras para remoção de carbono da atmosfera, com foco em tecnologias escaláveis para combate às mudanças climáticas.",
+        "link": "#"
+    },
+    {
+        "nome": "Bezos Earth Fund – Climate and Nature Programs",
+        "instituicao": "Bezos Earth Fund",
+        "descricao": "Financiamento de iniciativas voltadas ao combate às mudanças climáticas, preservação da biodiversidade e desenvolvimento de soluções sustentáveis.",
+        "link": "#"
+    },
+    {
+        "nome": "Programa Petrobras Socioambiental (Fundação não filantrópica)",
+        "instituicao": "Petrobras",
+        "descricao": "Financiamento de projetos socioambientais com foco em conservação da biodiversidade, educação ambiental e desenvolvimento sustentável de comunidades.",
+        "link": "#"
+    },
+    {
+        "nome": "Fundo Socioambiental CAIXA (Fundação não filantrópica)",
+        "instituicao": "Caixa Econômica Federal",
+        "descricao": "Apoio a projetos sociais e ambientais com foco em inclusão produtiva, desenvolvimento local sustentável e melhoria da qualidade de vida.",
+        "link": "#"
+    },
+    {
+        "nome": "Bellagio Center Residency Program",
+        "instituicao": "Rockefeller Foundationl",
+        "descricao": "Programa de apoio a projetos e lideranças que desenvolvem soluções inovadoras para desafios globais, incluindo clima, saúde, sistemas alimentares e desigualdade.",
+        "link": "#"
+    },
+    {
+        "nome": "BUILD (Building Institutions and Networks)",
+        "instituicao": "Ford Foundation",
+        "descricao": "Programa que financia e fortalece organizações e redes voltadas à justiça social, com foco em ampliar sua capacidade institucional e gerar impacto duradouro na redução das desigualdades.",
+        "link": "#"
+    },
+    {
+        "nome": "ClimateWorks Foundation – Climate Grants Program",
+        "instituicao": "ClimateWorks Foundation",
+        "descricao": "Programa de financiamento que apoia iniciativas voltadas à mitigação das mudanças climáticas, com foco na redução de emissões de gases de efeito estufa e no desenvolvimento de soluções sustentáveis em diferentes setores.",
+        "link": "#"
+    },
+    {
+        "nome": "BB Crédito Sustentável",
+        "instituicao": "Banco do Brasil",
+        "descricao": "Linha de crédito voltada ao financiamento de projetos sustentáveis, incluindo agricultura de baixo carbono, energia renovável e eficiência energética.",
+        "link": "#"
+    },
+    {
+        "nome": "Caixa Financiamento Sustentável",
+        "instituicao": "Caixa Econômica Federal",
+        "descricao": "Financiamento de projetos com foco em sustentabilidade, como energia solar",
+        "link": "#"
+    },
+    {
+        "nome": "Itaú Crédito ESG",
+        "instituicao": "Itaú Unibanco",
+        "descricao": "Financiamento para empresas com práticas ESG e projetos sustentáveis (energia limpa, redução de carbono).",
+        "link": "#"
+    },
+    {
+        "nome": "Bradesco Crédito Sustentável / ESG",
+        "instituicao": "Banco Bradesco",
+        "descricao": "Linha de crédito voltada a projetos com impacto socioambiental, incluindo eficiência",
+        "link": "#"
+    },
+    {
+        "nome": "Santander Crédito Verde",
+        "instituicao": "Banco Santander Brasil",
+        "descricao": "Financiamento para projetos sustentáveis com foco em energia renovável, eficiência energética e transição para economia de baixo carbono.",
+        "link": "#"
+    },
+    {
+        "nome": "BV Crédito ESG",
+        "instituicao": "Banco BV",
+        "descricao": "Linha de crédito com foco em projetos sustentáveis e empresas com boas práticas ESG, incluindo energia limpa e mobilidade sustentável.",
+        "link": "#"
+    },
+    {
+        "nome": "Sicredi Crédito Sustentável / Financiamento Verde",
+        "instituicao": "Sicredi",
+        "descricao": "Linha de crédito voltada ao financiamento de projetos sustentáveis, incluindo energia solar, agronegócio sustentável, eficiência energética e apoio a PMEs.",
+        "link": "#"
+    },
+    {
+        "nome": "BNDES Finem / Crédito Sustentável (Edital fechado)",
+        "instituicao": "BNDES (Banco Nacional de Desenvolvimento Econômico e Social)",
+        "descricao": "Financiamento de projetos estruturantes com foco em sustentabilidade, incluindo energia renovável, infraestrutura e inovação ambiental.",
+        "link": "#"
+    },
+    {
+        "nome": "FINEP Inovação Sustentável (Edital)",
+        "instituicao": "FINEP",
+        "descricao": "Editais e financiamentos para projetos inovadores com impacto ambiental positivo, incluindo tecnologias verdes e bioeconomia.",
+        "link": "#"
+    },
+    {
+        "nome": "BRDE Sustentabilidade",
+        "instituicao": "BRDE (Banco Regional de Desenvolvimento do Extremo Sul)",
+        "descricao": "Financiamento de projetos sustentáveis na região Sul, com foco em inovação, energia limpa e desenvolvimento regional.",
+        "link": "#"
+    },
+    {
+        "nome": "FNE Verde (Fundo Constitucional de Financiamento do Nordeste)",
+        "instituicao": "Banco do Nordeste do Brasil (BNB)",
+        "descricao": "Programa de financiamento voltado a projetos sustentáveis, incluindo energia renovável, eficiência energética, agro sustentável e redução de impactos ambientais.",
+        "link": "#"
+    },
+    {
+        "nome": "FNO Verde (Fundo Constitucional de Financiamento do Norte)",
+        "instituicao": "Banco da Amazônia (BASA)",
+        "descricao": "Programa de financiamento para projetos sustentáveis na região Norte, com foco em bioeconomia, preservação ambiental, energia limpa e desenvolvimento sustentável.",
+        "link": "#"
+    },
+    {
+        "nome": "BID Climate Finance / Sustainable Projects",
+        "instituicao": "BID",
+        "descricao": "Financiamento internacional para projetos de impacto ambiental, incluindo energia limpa, adaptação climática e infraestrutura sustentável.",
+        "link": "#"
+    }
+]
